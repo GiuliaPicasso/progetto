@@ -1,0 +1,501 @@
+/*---------------font-section--------------*/
+
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*---------------general--------------*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+  color: white;
+}
+
+body {
+  background-color: #101415;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+a, span {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 300;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, span:hover {
+  text-decoration: none;
+  text-decoration: underline;
+  color: inherit;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+b{
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  font-weight: 600;
+}
+
+button{
+  -webkit-appearance: none !important;
+  border: 1.5px solid white;
+  padding: 5px 15px 5px 15px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 10;
+  font-size: 15px;
+  font-weight: 500;
+  color: #101415;
+}
+
+button:hover{
+  border: 1.5px solid white;
+  background-color: #101415;
+  color: white;
+}
+
+
+.container{
+  padding: 40px;
+}
+
+/*---------------scroller-section--------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: trasparent;
+  cursor: pointer;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #101415;
+  border-radius: 10px;
+  border: 1px solid #FCFAF2;
+  background-position: center;
+  display: block;
+  cursor: pointer;
+}
+
+
+/*---------------navbar--------------*/
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 70px;
+}
+
+.nav {
+  z-index: 200;
+  writing-mode: vertical-rl;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.col-3 {
+  vertical-align: top;
+  display: inline-block;
+  width: auto;
+  text-align: inherit;
+  padding: 40px 40px 0 40px;
+  color: black;
+  cursor: pointer;
+  animation-direction: alternate;
+}
+
+.col-3:hover, .col-3-stretch:hover {
+ font-style: italic;
+}
+
+.col-3 a {
+   text-decoration: none;
+}
+
+.col-3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  opacity: 0;
+  visibily: hidden;
+  pointer-events: none;
+}
+
+
+/*---------------navbar-stretch--------------*/
+
+#nav-stretch {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+
+.col-3-stretch {
+  vertical-align: top;
+  display: inline-block;
+  width: auto;
+  text-align: inherit;
+  padding: 40px 10px 0 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.col-3-stretch a {
+   text-decoration: none;
+}
+
+/*---------------header--------------*/
+
+#header{
+  z-index: 400;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  padding: 10px 0 10px 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-title{
+  cursor: pointer;
+  position: relative;
+}
+
+/*---------------content--------------*/
+
+#content {
+  z-index: 0;
+  position: absolute;
+  display: flex;
+  padding: 60px 0px 0px 40px;
+  flex-direction: column;
+}
+
+.explanation {
+  position: relative;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 25vw;
+}
+
+/*---------------footer--------------*/
+
+#footer{
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0 10px 40px;
+}
+
+/*---------------index--------------*/
+
+h2 {
+  padding: 10px 0px 0px 0px;
+}
+
+.index{
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  font-size: 15px;
+}
+
+.col-2{
+  vertical-align: top;
+  display: inline-block;
+  width: 16vw;
+  text-align: inherit;
+  padding: 0 10px 0 0;
+}
+
+.index-kami a {
+  background-color: #E81700;
+}
+
+.index-yokai a {
+  background-color: #8F94B8;
+}
+
+.index-shizenrei a {
+  background-color: #E7914B;
+}
+
+.index-kami img, .index-yokai img, .index-shizenrei img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transform: translate(-100%, -100%);
+  z-index: 9;
+  opacity: 0;
+  visibily: hidden;
+  pointer-events: none;
+}
+
+/*---------------timeline--------------*/
+
+#timeline {
+  z-index: 300;
+  position: absolute;
+  padding: 230px 0px 0px 0px;
+}
+
+.timeline {
+  position: relative;
+  height: 69vh;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.timeline img {
+  width: 758vw;
+}
+
+area {
+  cursor: pointer;
+}
+
+/*---------------movie--------------*/
+
+
+h4{
+
+  font-weight: 500;
+  margin: 0;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.specs{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.movie-poster{
+  width: 40%;
+  height: auto;
+}
+
+#movie-screen{
+  display: flex;
+  justify-content: flex-start;
+  float:right;
+  width: 50vw;
+  position: relative;
+  overscroll-behavior: initial;
+}
+
+.movie-screen {
+  z-index: 200;
+  height: 100vh;
+  width: 50vw;
+  padding: 20px 0px 20px 0px;
+  background-color: inherit;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.movie-screen button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.screen{
+  width: 200px;
+  height: auto;
+  padding-left: 5px;
+}
+
+.row-screen{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 5px 0px 0px 0px;
+  border-top: 0.5px solid white;
+}
+
+.folklore-specs{
+  padding: 0 0 10px 0px;
+  width: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+hr{
+  -webkit-appearance: none !important;
+  border: 0.5px solid white;
+  opacity: 1;
+}
+
+.kami{
+  color: #A6D40D;
+}
+
+/*---------------kami--------------*/
+
+#folklore {
+  z-index: 300;
+  position: absolute;
+  padding: 200px 0px 0px 0px;
+}
+
+.chart{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+  overflow-x: scroll;
+}
+
+h3 {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 90px;
+  text-justify: inter-word;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 15px;
+}
+
+/*---------------kami--------------*/
+
+.tr {
+  margin: 10px;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  background-color: #A6D40D;
+  word-wrap: break-word;
+  opacity: 0.8;
+}
+
+.td{
+  color: #E81700;
+  height: auto;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.tr:hover, .tr a:hover{
+  cursor: pointer;
+  transition: 0.2s;
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+/*---------------yokai--------------*/
+
+.tr-y {
+  margin: 10px;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  background-color: #101415;
+  filter: grayscale();
+}
+
+.td-y{
+  color: #8F94B8;
+  height: auto;
+  text-align: justify;
+}
+
+.tr-y:hover, .tr-y a:hover{
+  cursor: pointer;
+  transition: 0.2s;
+  filter: none;
+    text-decoration: none;
+}
+
+/*---------------shizenrei--------------*/
+
+.tr-s {
+  margin: 10px;
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+  background-color: #101415;
+  filter: grayscale();
+}
+
+.td-s{
+  color: #E7914B;
+  height: auto;
+  text-align: justify;
+}
+
+.tr-s:hover, .tr-s a:hover{
+  cursor: pointer;
+  transition: 0.2s;
+  filter: none;
+  text-decoration: none;
+}
+
+/*---------------folklore-section--------------*/
+
+.description {
+  padding-top: 20px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.big-description{
+  font-size: 20px;
+}
+
+.period {
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 40px;
+  opacity: 0.5;
+}
+
+.legenda{
+  line-height: 2em;
+  font-size: 13px;
+}
+
+.legenda img{
+  padding-right: 10px;
+  width: 30px;
+}

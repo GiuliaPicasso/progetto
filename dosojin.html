@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" style="font-size: 97.2%;">
+    <title>BROGETTO</title>
+    <link rel="icon" type="image/favicon" href="images/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+  </head>
+
+<body>
+
+
+  <section id="header">
+      <nav class="header-title">
+          <div>
+              ⇠<a onclick="history.back()">Back</a>
+          </div>
+      </nav>
+  </section>
+
+  <section id="content" style="display: flex; justify-content: flex-start; width: 50vw;">
+    <div>
+      <h1>DŌSOJIN</h1>
+    </div>
+    <div class="movie">
+        <h5>Statue</h5>
+        <p class="big-description" style="width: 40vw"> Dōsojin (道祖神, literally, "road ancestor deity") is a generic name
+          for a type of Shinto kami popularly worshipped in Kantō and neighboring areas in Japan where, as
+          tutelary deities of borders and paths, they are believed to protect travellers, pilgrims,
+          villages, and individuals in "transitional stages" from epidemics and evil spirits.
+           Also called Sae no kami or Sai no kami (障の神・塞の神), Dōrokujin (道陸神) or Shakujin
+           (石神, literally: "stone kami"). Dōsojin are often represented as a human couple,
+           carved male or female genitals, large stones or statues, or even tall poles along a road.</p>
+          <p class="specs" style="opacity: 60%"> Text from en.wikipedia.org/wiki/Dōsojin</p>
+        <img class="movie-poster" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/37194/133860/main-image">
+        <p class="specs description">Utagawa Kuniyoshi, Wayfarers Looking at the Statue of Jizo Bosatsu in a Pine Grove at Hashiba, ca. 1840</p>
+        <p class="legenda"> <img src="images/implicit.svg" alt="">Implicit reference <br> <img src="images/explicit.svg" alt="">Explicit reference </p>
+      </div>
+  </section>
+
+  <section id="movie-screen">
+        <div class="movie-screen">
+
+          <div class="period">1910-1950</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('golden.html')">1929</button>
+            </div>
+
+            <div>
+              <img class="screen" src="images/golden/golden1.png">
+            </div>
+          </div>
+
+        <div class="period">1950-1980</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('mizu.html')">1975</button>
+            </div>
+
+            <div>
+              <img class="screen" src="images/mizu/mizu1.png">
+            </div>
+          </div>
+
+          <div class="period">1980-2023</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('totoro.html')">1988</button>
+            </div>
+
+            <div>
+              <img class="screen" src="images/totoro/totoro1.png">
+              <img class="screen" src="images/totoro/totoro2.png">
+            </div>
+          </div>
+
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('pompoko.html')">1994</button>
+            </div>
+
+            <div>
+              <img class="screen" src="images/pompoko/pompoko1.png">
+              <img class="screen" src="images/pompoko/pompoko2.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('spirited.html')">2001</button>
+            </div>
+
+            <div>
+              <img class="screen" src="images/spirited/spirited1.png">
+              <img class="screen" src="images/spirited/spirited2.png">
+            </div>
+          </div>
+
+
+      </div>
+  </section>
+
+
+  <section id="footer">
+      <div class="footer">
+        <span class="footer-link" href="search.html" target=”_blank onclick="transitionToPage('search.html')">Index</span>
+      </div>
+  </section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

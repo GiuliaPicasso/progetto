@@ -227,7 +227,7 @@ button:hover{
 
 h1{
   font-family: 'IBM Plex Mono', monospace;
-  
+  font-weight: 300;
 }
 
 h2 {
@@ -254,7 +254,7 @@ h2 {
 }
 
 .index-yokai a {
-  background-color: #4A4898;
+  background-color: #3F4AB3;
 }
 
 .index-shizenrei a {
@@ -294,14 +294,7 @@ h2 {
   width: 758vw;
 }
 
-area {
-  cursor: pointer;
-  filter: grayscale();
-}
 
-area:hover {
-  filter: none;
-}
 
 /*---------------movie--------------*/
 
@@ -458,7 +451,7 @@ h3 {
 }
 
 .td-y{
-  color: #4A4898;
+  color: #3F4AB3;
   height: auto;
   text-align: justify;
   font-weight: 500;

@@ -383,7 +383,7 @@ hr{
 #folklore {
   z-index: 300;
   position: absolute;
-  padding: 200px 0px 0px 0px;
+  padding: 230px 0px 0px 0px;
 }
 
 .chart{
@@ -391,7 +391,7 @@ hr{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 72vh;
+  height: 68vh;
   overflow-x: scroll;
   color: #101415;
 }
@@ -422,7 +422,6 @@ h3 {
   width: auto;
   height: auto;
   background-color: #101415;
-  word-wrap: break-word;
 }
 
 
@@ -431,6 +430,10 @@ h3 {
   height: auto;
   text-align: justify;
   font-weight: 500;
+}
+
+.td img{
+  width: 450px;
 }
 
 .tr:hover, .tr a:hover{
@@ -457,6 +460,10 @@ h3 {
   font-weight: 500;
 }
 
+.td-y img{
+  width: 450px;
+}
+
 .tr-y:hover, .tr-y a:hover{
   cursor: pointer;
   text-decoration: none;
@@ -478,6 +485,10 @@ h3 {
   height: auto;
   text-align: justify;
   font-weight: 500;
+}
+
+.td-s img{
+  width: 450px;
 }
 
 .tr-s:hover, .tr-s a:hover{

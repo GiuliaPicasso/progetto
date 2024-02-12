@@ -36,13 +36,38 @@
     </div>
   </section>
 
+
+
   <section id="timeline">
+
+
     <div class="timeline">
       <img src="images/timeline.png" usemap="#image-map">
 
       <map name="image-map">
-          <area class="map" target="_blank" title="Urashima Tarō" href="urashimataro.html" coords="880,380,980,230" shape="rect">
-          <area target="_blank" title="Kujira" href="kujira.html" coords="1750,195,1840,40" shape="rect">
+
+
+          <div id="urashimataro" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav('urashimataro')">⇠Back</a>
+              <div class="overlay-content">
+                <iframe src="urashimataro.html"></iframe>
+              </div>
+              <span onclick="openNav('urashimataro')"><area class="map" target="_blank" title="Urashima Tarō" coords="880,380,980,230" shape="rect"></span>
+          </div>
+
+
+          <div id="kujira" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav('kujira')">⇠Back</a>
+              <div class="overlay-content">
+                <iframe src="kujira.html"></iframe>
+              </div>
+              <span onclick="openNav('kujira')"><area class="map" target="_blank" title="Kujira" coords="1750,195,1840,40" shape="rect"></span>
+          </div>
+
+
+
+
+
           <area target="_blank" title="The Nation of Fish" href="fish.html" coords="1870,195,1960,40" shape="rect">
           <area target="_blank" title="The Blossom Man" href="blossom.html" coords="1860,360,1950,220" shape="rect">
           <area target="_blank" title="Momotaro" href="momotaro.html" coords="1860,530,1950,390" shape="rect">
@@ -51,20 +76,12 @@
           <area target="_blank" title="A Wolf is a Wolf" href="awolf.html" coords="2140,195,2230,40" shape="rect">
           <area target="_blank" title="Kamishibai Kintaro" href="kintaro.html" coords="2450,195,2540,40" shape="rect">
           <area target="_blank" title="The Lazy Fox" href="fox.html" coords="3130,380,3220,230" shape="rect">
-
       </map>
 
 
     </div>
   </section>
 
-
-
-  <section id="footer" >
-      <div class="footer">
-        <span class="footer-link" href="search.html" target=”_blank onclick="transitionToPage('search.html')">?Index</span>
-      </div>
-  </section>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

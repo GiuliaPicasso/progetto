@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: white;
   scroll-behavior:smooth;
   overflow: hidden;
@@ -53,6 +53,10 @@ i{
   color: inherit;
 }
 
+p{
+  line-height: 1.2em;
+}
+
 button{
   -webkit-appearance: none !important;
   border: 1.5px solid white;
@@ -87,9 +91,11 @@ font-weight: 500;
 }
 
 .btn-down{
-  font-weight: 500;
-
+  font-weight: 200;
+  font-size: 20px;
   text-align: center;
+  position: relative;
+  padding-left: 0px;
 }
 
 .container{
@@ -125,7 +131,7 @@ font-weight: 500;
 #nav {
   display: flex;
   justify-content: flex-end;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .nav {
@@ -227,7 +233,7 @@ font-weight: 500;
 
 .explanation {
   position: relative;
-  font-size: 18px;
+  font-size: 40px;
   padding-top: 20px;
   width: 30vw;
 }
@@ -246,7 +252,7 @@ font-weight: 500;
 
 h1{
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 300;
+  font-weight: 400;
   overflow: hidden;
 }
 
@@ -389,7 +395,6 @@ h5 {
   width: 50vw;
   position: relative;
   overscroll-behavior: initial;
-
 }
 
 .movie-screen {
@@ -402,6 +407,52 @@ h5 {
   flex-direction: column;
   align-items: flex-end;
 }
+
+/*---------------movie--------------*/
+
+#movie-screen1{
+  display: flex;
+  justify-content: flex-start;
+  float: right;
+  width: 50vw;
+  position: relative;
+  overscroll-behavior: initial;
+}
+
+.movie-screen1 {
+  z-index: 200;
+  height: 100vh;
+  width: 50vw;
+  padding: 20px 0px 20px 0px;
+  background-color: inherit;
+  overflow-y: scroll;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.folklore-specs1{
+  padding: 10px 0 10px 0px;
+  width: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.op{
+  opacity: 0.5;
+}
+
+.op:hover{
+  opacity: 1;
+  transition: 0.2s ease-out;
+}
+
+.folklore-specs1 img{
+  padding-right: 10px;
+}
+
+/*---------------movie--------------*/
 
 .movie-screen button{
   display: flex;
@@ -446,8 +497,9 @@ hr{
   position: relative;
   display: flex;
   padding: 60px 0px 100px 40px;
-  flex-direction: column;
-  height: auto;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: wrap;
 }
 
 #folklore {

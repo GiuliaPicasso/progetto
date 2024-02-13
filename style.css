@@ -10,9 +10,9 @@
   padding: 0;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   font-weight: 300;
-  overflow-x: hidden;
   color: white;
   scroll-behavior:smooth;
+  overflow: hidden;
 }
 
 body {
@@ -42,8 +42,15 @@ ul{
 }
 
 b{
-  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   font-weight: 600;
+  font-family: inherit;
+  color: inherit;
+}
+
+i{
+  font-style: italic;
+  font-family: inherit;
+  color: inherit;
 }
 
 button{
@@ -69,6 +76,21 @@ button:hover{
 
 }
 
+#btn-back-to-top {
+position: fixed;
+bottom: 40px;
+right: 40px;
+display: none;
+z-index: 100;
+cursor: pointer;
+font-weight: 500;
+}
+
+.btn-down{
+  font-weight: 500;
+
+  text-align: center;
+}
 
 .container{
   padding: 40px;
@@ -85,14 +107,13 @@ button:hover{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #FCFAF2;
+  background: #101415;
   cursor: pointer;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #101415;
-  border: 1px solid #FCFAF2;
+  background-color: #FCFAF2;
   background-position: center;
   display: block;
   cursor: pointer;
@@ -134,7 +155,7 @@ button:hover{
 
 #record{
   position: absolute;
-  width: 180px;
+  width: 150px;
   bottom: 0;
   z-index: 1;
   transition: 0.2s ease-out;
@@ -206,7 +227,7 @@ button:hover{
 
 .explanation {
   position: relative;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 20px;
   width: 30vw;
 }
@@ -262,7 +283,7 @@ h2 {
 
 .index-kami img, .index-yokai img, .index-shizenrei img {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 80px;
   height: 80px;
@@ -420,20 +441,35 @@ hr{
 
 /*---------------schede folklore--------------*/
 
-#folklore {
-  z-index: 300;
-  position: absolute;
-  padding: 210px 0px 0px 0px;
+#front{
+  z-index: 0;
+  position: relative;
+  display: flex;
+  padding: 60px 0px 100px 40px;
+  flex-direction: column;
+  height: auto;
 }
+
+#folklore {
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 60px;
+}
+
 
 .chart{
   position: relative;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 100vw;
-  overflow-y: scroll;
+  height: 100vh;
   color: #101415;
+
+}
+
+.tabella{
+  background-color: #101415;
+  padding-top: 10px;
 }
 
 h3 {
@@ -445,48 +481,49 @@ h3 {
   padding: 15px;
 }
 
-.r {
-  transform: rotate(3deg);
-  transform-origin: center;
-}
-
-.l {
-  transform: rotate(-3deg);
-  transform-origin: center;
-}
 
 /*---------------kami--------------*/
 
 .tr {
   margin: 0px;
   width: auto;
-  height: auto;
-  overflow-y: hidden;
+  height: 100vh;
   background-color: #E81700;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .td{
-  color: #E81700;
-  height: auto;
-  text-align: justify;
-  font-size: 50px;
-  font-weight: 500;
+  width: 100vw;
   background-color: #E81700;
   border-top: 1px solid #101415;
-  padding: 10px;
-  display: flex;
-  align-content: center;
+  padding: 0 10px 0 10px;
 }
 
-.td p{
+.td p, .tr a{
+  color: #101415;
   margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 50px;
+  font-weight: 400;
+  cursor: pointer;
 }
 
-.td:hover, .td a:hover{
+.info {
+  font-family: 'I5M Plex Mono', monospace;
+  font-size: 15px;
+  font-weight: 300;
+  color: #101415;
+  align-self: center;
+}
+
+
+.td:hover, .tr a:hover{
   cursor: pointer;
   text-decoration: none;
   transform: translateY(-10px);
-  transition: 0.1s ease-in;
+  transition: 0.2s ease-out;
 }
 
 

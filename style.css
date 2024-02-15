@@ -132,7 +132,7 @@ font-weight: 500;
 #nav {
   display: flex;
   justify-content: flex-end;
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .nav {
@@ -140,6 +140,7 @@ font-weight: 500;
   writing-mode: vertical-rl;
   height: 100vh;
   flex-direction: column;
+
 }
 
 
@@ -153,6 +154,7 @@ font-weight: 500;
   color: black;
   cursor: pointer;
   animation-direction: alternate;
+  font-weight: 300;
 }
 
 .col-3:hover, .col-3-stretch:hover, .col-3 a:hover, .col-3-stretch a:hover{
@@ -551,14 +553,12 @@ h3 {
   margin: 0px;
   width: auto;
   height: 100vh;
-  background-color: #E81700;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
 .td{
   width: 100vw;
-  background-color: #E81700;
   border-top: 1px solid #101415;
   padding: 0 10px 0 10px;
 }
@@ -573,6 +573,26 @@ h3 {
   cursor: pointer;
 }
 
+.td:hover, .tr a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  transform: translateY(-10px);
+  transition: 0.5s ease-out;
+}
+
+
+.k{
+  background-color: #E81700;
+}
+
+.y{
+  background-color: #3F4AB3;
+}
+
+.s{
+  background-color: #FA9542;
+}
+
 .info {
   font-family: 'I5M Plex Mono', monospace;
   font-size: 15px;
@@ -581,68 +601,6 @@ h3 {
   align-self: center;
 }
 
-
-.td:hover, .tr a:hover{
-  cursor: pointer;
-  text-decoration: none;
-  transform: translateY(-10px);
-  transition: 0.2s ease-out;
-}
-
-
-/*---------------yokai--------------*/
-
-.tr-y {
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: #101415;
-}
-
-.td-y{
-  color: #3F4AB3;
-  height: auto;
-  text-align: justify;
-  font-weight: 500;
-}
-
-.td-y img{
-  width: 450px;
-}
-
-.tr-y:hover, .tr-y a:hover{
-  cursor: pointer;
-  text-decoration: none;
-  transform: translateY(-10px);
-  transition: 0.1s ease-in;
-}
-
-/*---------------shizenrei--------------*/
-
-.tr-s {
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: #101415;
-}
-
-.td-s{
-  color: #FA9542;
-  height: auto;
-  text-align: justify;
-  font-weight: 500;
-}
-
-.td-s img{
-  width: 450px;
-}
-
-.tr-s:hover, .tr-s a:hover{
-  cursor: pointer;
-  text-decoration: none;
-  transform: translateY(-10px);
-  transition: 0.1s ease-in;
-}
 
 /*---------------folklore-section--------------*/
 

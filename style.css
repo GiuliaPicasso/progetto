@@ -651,6 +651,10 @@ h3 {
   padding: 10px 0px 0px 20px;
 }
 
+.header-title{
+  font-size: 12px;
+}
+
 #content{
   padding: 60px 0px 0px 20px;
 }
@@ -667,6 +671,7 @@ h3 {
   position: absolute;
   top:10px;
   right:20px;
+  font-size: 12px;
 }
 
 
@@ -675,7 +680,6 @@ h3 {
   font-size: 30px;
   height: 100vh;
   position: relative;
-  bottom:0;
 }
 
 .nav {
@@ -702,13 +706,21 @@ h3 {
   display: none;
 }
 
-
 .explanation{
   font-size: 25px;
   width: 100%;
 }
 
-/*---------------kami and sections--------------*/
+/*---------------SEARCH--------------*/
+
+.index{
+
+}
+
+
+
+
+/*---------------K, Y, S SECTIONS--------------*/
 
 #front{
   padding: 60px 0px 100px 20px;

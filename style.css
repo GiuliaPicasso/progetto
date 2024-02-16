@@ -523,6 +523,10 @@ hr{
   margin-top: 60px;
 }
 
+#front .explanation{
+  font-size: 40px;
+  width: 100%;
+}
 
 .chart{
   position: relative;
@@ -668,7 +672,9 @@ h3 {
 #nav {
   display: flex;
   font-size: 40px;
-  bottom: 0;
+  height: 100vh;
+  position: relative;
+  bottom:0;
 }
 
 .nav {
@@ -703,12 +709,21 @@ h3 {
 
 /*---------------kami and sections--------------*/
 
-  .btn-down{
-    font-weight: 200;
-    font-size: 20px;
-    text-align: center;
-    position: relative;
-    padding-left: 0px;
-  }
+#front{
+  padding: 60px 0px 100px 20px;
+}
+
+#front .explanation{
+  font-size: 30px;
+}
+
+.btn-down{
+  bottom: 0;
+}
+
+#btn-back-to-top {
+bottom: 10px;
+right: 20px;
+}
 
 }

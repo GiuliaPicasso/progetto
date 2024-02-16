@@ -675,10 +675,12 @@ h3 {
 
 #footer{
   top:0;
-  right:0;
-  padding: 40px;
-  display: flex;
+  right: 0;
+  width: 20%;
+  height: 10%;
   z-index: 400;
+  display: flex;
+  padding: 0;
 }
 
 .footer{
@@ -758,7 +760,7 @@ h3 {
 }
 
 .col-3-stretch{
-  padding: 20px 5px 30px 5px;
+  padding: 20px 5px 20px 5px;
 }
 
 .col-2{
@@ -770,9 +772,7 @@ h3 {
 .folklore-specs1{
   flex-direction: column;
   display: flex;
-
 }
-
 
 /*---------------K, Y, S SECTIONS--------------*/
 

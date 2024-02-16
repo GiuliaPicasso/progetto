@@ -224,6 +224,7 @@ font-weight: 500;
   position: relative;
 }
 
+
 /*---------------content--------------*/
 
 #content {
@@ -387,7 +388,7 @@ h5 {
 }
 
 .movie-poster{
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 

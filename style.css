@@ -13,6 +13,7 @@
   color: white;
   scroll-behavior:smooth;
   overflow: hidden;
+
 }
 
 body {
@@ -658,6 +659,7 @@ h3 {
 
 #content{
   padding: 60px 0px 0px 20px;
+  overflow-y: scroll;
 }
 
 #footer{
@@ -714,9 +716,31 @@ h3 {
 
 /*---------------SEARCH--------------*/
 
-.index{
-
+#nav-stretch .nav{
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  z-index: 0;
+  width: auto;
 }
+
+.index{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-y: scroll;
+  z-index: 200;
+  font-size: 14px;
+}
+
+.col-3-stretch{
+  padding: 20px 5px 0 5px;
+}
+
+.col-2{
+  width: auto;
+}
+
+
 
 
 

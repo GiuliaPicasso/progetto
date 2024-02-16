@@ -541,6 +541,7 @@ hr{
 .tabella{
   background-color: #101415;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -671,7 +672,7 @@ h3 {
 
 #nav {
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   height: 100vh;
   position: relative;
   bottom:0;
@@ -714,7 +715,7 @@ h3 {
 }
 
 #front .explanation{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .btn-down{
@@ -724,6 +725,71 @@ h3 {
 #btn-back-to-top {
 bottom: 10px;
 right: 20px;
+}
+
+.tabella{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.tr p{
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.info{
+  font-size: 16px;
+}
+
+
+/*---------------GOD/MOVIE SECTION--------------*/
+
+h1{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 15px;
+}
+
+h5{
+  font-size: 11px;
+}
+
+.big-description{
+  font-size: 15px;
+}
+
+.specs{
+  font-size: 10px;
+}
+
+.description{
+  display: none;
+}
+
+.movie-poster{
+  display: none;
+}
+
+.legenda{
+  font-size: 10px;
+}
+
+.legenda img{
+  width: 20px;
+}
+
+.period{
+  font-size: 18px;
+}
+
+button{
+  font-size: 12px;
+}
+
+.screen{
+  width: 140px;
 }
 
 }

@@ -698,6 +698,7 @@ h3 {
   flex-direction: column-reverse;
   flex-wrap: nowrap;
   writing-mode: horizontal-tb;
+  position: sticky;
 }
 
 .col-3 {

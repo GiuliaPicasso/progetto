@@ -31,7 +31,6 @@ a, span {
 }
 
 a:hover, span:hover {
-  text-decoration: none;
   text-decoration: underline;
   color: inherit;
 }
@@ -82,19 +81,18 @@ button:hover{
 }
 
 #btn-back-to-top {
-position: fixed;
-bottom: 40px;
-right: 40px;
-display: none;
-z-index: 100;
-cursor: pointer;
-font-weight: 500;
-}
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  z-index: 100;
+  cursor: pointer;
+  font-weight: 500;
+  }
 
 .btn-down{
   font-weight: 200;
   font-size: 20px;
-  text-align: center;
   position: relative;
   padding-left: 0px;
 }
@@ -156,6 +154,7 @@ font-weight: 500;
   cursor: pointer;
   animation-direction: alternate;
   font-weight: 300;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .col-3:hover, .col-3-stretch:hover, .col-3 a:hover, .col-3-stretch a:hover{
@@ -175,7 +174,6 @@ font-weight: 500;
 #sleeve{
   position: relative;
   z-index: 10;
-  font-family: 'IBM Plex Mono', monospace;
 }
 
 #transition:hover #record{
@@ -235,13 +233,13 @@ font-weight: 500;
   z-index: 0;
   position: absolute;
   display: flex;
-  padding: 60px 0px 0px 40px;
+  padding: 60px 20px 0px 40px;
   flex-direction: column;
 }
 
 .explanation {
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
   padding-top: 20px;
   width: 40vw;
 }
@@ -517,7 +515,7 @@ hr{
   z-index: 0;
   position: relative;
   display: flex;
-  padding: 60px 0px 100px 40px;
+  padding: 60px 20px 100px 40px;
   flex-direction: row;
   height: 100vh;
   flex-wrap: wrap;
@@ -663,7 +661,7 @@ h3 {
 }
 
 #content{
-  padding: 60px 0px 0px 20px;
+  padding: 60px 20px 0px 20px;
 }
 
 #footer{
@@ -759,15 +757,16 @@ h3 {
 /*---------------K, Y, S SECTIONS--------------*/
 
 #front{
-  padding: 60px 0px 100px 20px;
+  padding: 60px 20px 100px 20px;
 }
 
 #front .explanation{
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .btn-down{
   bottom: 0;
+  font-size: 16px;
 }
 
 #btn-back-to-top {
@@ -781,19 +780,20 @@ right: 20px;
 }
 
 .tr p{
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 500;
 }
 
 .info{
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1em;
 }
 
 
 /*---------------GOD/MOVIE SECTION--------------*/
 
 h1{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h4{

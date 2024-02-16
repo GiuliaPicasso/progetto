@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #101415;
+  background-color: #000000;
   opacity: 0;
   transition: opacity 0.7s;
 }
@@ -696,7 +696,6 @@ h3 {
   font-size: 30px;
   font-weight: 400;
   height: 100vh;
-  position: relative;
   align-items: baseline;
   align-content: flex-end;
 }
@@ -709,6 +708,7 @@ h3 {
   flex-wrap: nowrap;
   writing-mode: horizontal-tb;
   position: sticky;
+  bottom: 0;
 }
 
 .col-3 {

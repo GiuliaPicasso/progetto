@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #101415;
   opacity: 0;
   transition: opacity 0.7s;
 }
@@ -733,18 +733,19 @@ h3 {
 
 /*---------------SEARCH--------------*/
 #nav-stretch{
-  height: 100vh;
+  height: auto;
 }
 
 #nav-stretch .nav{
+  top:0;
+  width: auto;
   font-size: 20px;
   writing-mode: vertical-lr;
   z-index: 0;
-  width: auto;
-  height: auto;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
+
 }
 
 .index{
@@ -761,6 +762,7 @@ h3 {
 
 .col-3-stretch{
   padding: 20px 5px 20px 5px;
+  height: 100vh;
 }
 
 .col-2{

@@ -132,7 +132,7 @@ font-weight: 500;
 #nav {
   display: flex;
   justify-content: flex-end;
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .nav {
@@ -178,8 +178,7 @@ font-weight: 500;
 }
 
 #transition:hover #record{
-  transform: translate(-120px, -50px);
-
+  transform: translate(-80px, -50px);
 }
 
 
@@ -632,4 +631,67 @@ h3 {
 .legenda img{
   padding-right: 10px;
   width: 30px;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+/*---------------index--------------*/
+
+
+.explanation{
+  font-size: 20px;
+  width: 100%;
+}
+
+#footer{
+  top: 0;
+}
+
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  width: 100%;
+}
+
+.nav {
+  z-index: 200;
+  width: 100VW;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  writing-mode: horizontal-tb;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  color: black;
+  cursor: pointer;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
+  #record{
+    display: none;
+  }
+
+/*---------------kami and sections--------------*/
+
+  .btn-down{
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    padding-left: 0px;
+  }
+
 }

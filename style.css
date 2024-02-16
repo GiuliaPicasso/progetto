@@ -247,8 +247,10 @@ font-weight: 500;
   z-index: 100;
   position: absolute;
   bottom: 0;
-  width: 100vw;
   padding: 10px 0 10px 40px;
+  display: flex;
+  justify-content: flex-start;
+
 }
 
 /*---------------index--------------*/
@@ -640,26 +642,37 @@ h3 {
 
 /*---------------index--------------*/
 
+#header{
+  padding: 10px 0px 0px 20px;
+}
 
-.explanation{
-  font-size: 20px;
-  width: 100%;
+#content{
+  padding: 60px 0px 0px 20px;
 }
 
 #footer{
-  top: 0;
+  top:0;
+  right:0;
+  padding: 40px;
+  display: flex;
+  z-index: 400;
+}
+
+.footer{
+  position: absolute;
+  top:10px;
+  right:20px;
 }
 
 
 #nav {
   display: flex;
-  justify-content: flex-end;
-  font-size: 30px;
-  width: 100%;
+  font-size: 40px;
+  bottom: 0;
 }
 
 .nav {
-  z-index: 200;
+  z-index: 100;
   width: 100VW;
   display: flex;
   flex-direction: column-reverse;
@@ -670,7 +683,7 @@ h3 {
 .col-3 {
   display: inline-block;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 0;
   color: black;
   cursor: pointer;
@@ -678,11 +691,15 @@ h3 {
   text-align: center;
 }
 
+#record{
+  display: none;
+}
 
 
-  #record{
-    display: none;
-  }
+.explanation{
+  font-size: 25px;
+  width: 100%;
+}
 
 /*---------------kami and sections--------------*/
 

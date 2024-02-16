@@ -169,7 +169,6 @@ button:hover{
   bottom: 0;
   z-index: 1;
   transition: 0.1s ease-out;
-  filter: grayscale();
 }
 
 #sleeve{
@@ -416,7 +415,7 @@ h5 {
   z-index: 200;
   height: 100vh;
   width: 50vw;
-  padding: 60px 0px 20px 0px;
+  padding: 40px 0px 20px 0px;
   background-color: inherit;
   overflow-y: scroll;
 }
@@ -709,6 +708,7 @@ h3 {
   writing-mode: horizontal-tb;
   position: sticky;
   bottom: 0;
+  filter: none;
 }
 
 .col-3 {

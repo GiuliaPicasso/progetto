@@ -283,6 +283,15 @@ h2 {
   padding: 0 10px 0 0;
 }
 
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+
 .index-kami a {
   background-color: #E81700;
 }
@@ -409,7 +418,7 @@ h5 {
   z-index: 200;
   height: 100vh;
   width: 50vw;
-  padding: 20px 0px 20px 0px;
+  padding: 60px 0px 20px 0px;
   background-color: inherit;
   overflow-y: scroll;
   flex-direction: column;
@@ -438,7 +447,6 @@ h5 {
 
 .folklore-specs1{
   padding: 10px 0 10px 0px;
-  width: 100%;
   align-items: baseline;
   display: flex;
   flex-direction: row;
@@ -753,6 +761,8 @@ h3 {
 
 .folklore-specs1{
   flex-direction: column;
+  display: flex;
+
 }
 
 
@@ -795,7 +805,7 @@ right: 20px;
 /*---------------GOD/MOVIE SECTION--------------*/
 
 h1{
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h4{
@@ -841,6 +851,11 @@ button{
 
 .screen{
   width: 140px;
+}
+.movie{
+  height: 90vh;
+  overflow-y: scroll;
+  overflow: 
 }
 
 }

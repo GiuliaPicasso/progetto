@@ -142,7 +142,6 @@ button:hover{
 
 }
 
-
 .col-3 {
   vertical-align: top;
   display: inline-block;
@@ -155,11 +154,13 @@ button:hover{
   animation-direction: alternate;
   font-weight: 300;
   font-family: 'IBM Plex Mono', monospace;
+  filter: grayscale();
 }
 
 .col-3:hover, .col-3-stretch:hover, .col-3 a:hover, .col-3-stretch a:hover{
  font-style: italic;
  text-decoration: none;
+ filter: none;
 }
 
 #record{
@@ -167,7 +168,7 @@ button:hover{
   width: 150px;
   bottom: 0;
   z-index: 1;
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-out;
   filter: grayscale();
 }
 
@@ -177,7 +178,7 @@ button:hover{
 }
 
 #transition:hover #record{
-  transform: translate(-80px, -50px);
+  transform: translate(-80px, -0px);
 }
 
 
@@ -244,6 +245,12 @@ button:hover{
   width: 40vw;
 }
 
+.w{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+}
+
 /*---------------footer--------------*/
 
 #footer{
@@ -266,6 +273,7 @@ h1{
 
 h2 {
   padding: 10px 0px 0px 0px;
+  border-top: 1px solid #FFFFFF30;
 }
 
 .index{
@@ -273,6 +281,10 @@ h2 {
   justify-content: flex-start;
   width: auto;
   font-size: 15px;
+}
+
+.index a{
+    cursor: pointer;
 }
 
 .col-2{
@@ -302,20 +314,6 @@ h2 {
 
 .index-shizenrei a {
   background-color: #E7914B;
-}
-
-.index-kami img, .index-yokai img, .index-shizenrei img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  transform: translate(-100%, -100%);
-  z-index: 9;
-  opacity: 0;
-  visibily: hidden;
-  pointer-events: none;
 }
 
 /*---------------timeline--------------*/
@@ -421,8 +419,6 @@ h5 {
   padding: 60px 0px 20px 0px;
   background-color: inherit;
   overflow-y: scroll;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 /*---------------movie--------------*/
@@ -508,7 +504,6 @@ h5 {
   align-items: center;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-end;
 }
 
 hr{
@@ -658,6 +653,12 @@ h3 {
 
 @media screen and (max-width:767px) {
 
+/*---------------scrollbar--------------*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 /*---------------index--------------*/
 
 #header{
@@ -729,12 +730,19 @@ h3 {
 }
 
 /*---------------SEARCH--------------*/
+#nav-stretch{
+  height: 100vh;
+}
 
 #nav-stretch .nav{
-  font-size: 18px;
+  font-size: 20px;
   writing-mode: vertical-lr;
   z-index: 0;
   width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
 }
 
 .index{
@@ -744,13 +752,13 @@ h3 {
   height: 90vh;
   overflow-y: scroll;
   z-index: 200;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
   padding-bottom: 40px;
 }
 
 .col-3-stretch{
-  padding: 20px 5px 0 5px;
+  padding: 20px 5px 30px 5px;
 }
 
 .col-2{
@@ -808,8 +816,12 @@ h1{
   font-size: 26px;
 }
 
-h4{
+h2{
   font-size: 15px;
+}
+
+h4{
+  font-size: 13px;
 }
 
 h5{
@@ -850,12 +862,17 @@ button{
 }
 
 .screen{
-  width: 140px;
+  width: 120px;
 }
 .movie{
-  height: 90vh;
+  height: 60vh;
   overflow-y: scroll;
-  overflow: 
+  overflow:
+}
+
+.movie-screen button{
+  display: flex;
+  justify-content: center;
 }
 
 }

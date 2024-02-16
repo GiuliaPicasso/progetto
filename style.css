@@ -742,8 +742,13 @@ h3 {
   width: auto;
 }
 
+/*---------------TIMELINE--------------*/
 
-
+.folklore-specs1{
+  width: 100%;
+  flex-direction: column;
+  border-bottom: 1px dashed #FFFFFF30;
+}
 
 
 /*---------------K, Y, S SECTIONS--------------*/

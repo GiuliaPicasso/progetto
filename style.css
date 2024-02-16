@@ -683,6 +683,7 @@ h3 {
 #nav {
   display: flex;
   font-size: 30px;
+  font-weight: 400;
   height: 100vh;
   position: relative;
   align-items: baseline;
@@ -736,6 +737,7 @@ h3 {
   overflow-y: scroll;
   z-index: 200;
   font-size: 15px;
+  font-weight: 400;
   padding-bottom: 40px;
 }
 

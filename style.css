@@ -304,6 +304,7 @@ h2 {
 
 .index a{
     cursor: pointer;
+    font-weight: 400;
 }
 
 .col-2{
@@ -677,8 +678,6 @@ h3 {
 
 
 
-
-
 @media screen and (max-width:767px) {
 
   body {
@@ -735,7 +734,7 @@ h3 {
 
 .footer{
   position: absolute;
-  top:10px;
+  top:15px;
   right:20px;
   font-size: 14px;
 }
@@ -787,7 +786,6 @@ h3 {
 /*---------------SEARCH--------------*/
 #nav-stretch{
   height: auto;
-  font-weight: 400;
 }
 
 #nav-stretch .nav{
@@ -800,7 +798,6 @@ h3 {
   flex-direction: row-reverse;
   justify-content: flex-start;
   height: 100dvh;
-  font-weight: 400;
 }
 
 .index{
@@ -814,6 +811,8 @@ h3 {
   height: 100dvh;
   width: 100%;
 }
+
+
 
 .col-3-stretch{
   padding: 20px 0px 20px 5px;

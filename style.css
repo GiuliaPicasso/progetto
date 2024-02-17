@@ -708,6 +708,10 @@ h3 {
   width: auto;
 }
 
+#content .btn-down{
+  display: block;
+}
+
 #footer{
   top:0;
   right: 0;
@@ -898,7 +902,7 @@ button{
 }
 
 .screen{
-  width: 30%;
+  width: 40%;
 }
 
 .d{
@@ -909,14 +913,14 @@ button{
 #movie-screen, #movie-screen1{
   display: flex;
   position: relative;
-  min-height: 100dvh;
+  height: 100vh;
   width: 100%;
   margin-top: 20px;
   align-items: baseline;
 }
 
 .movie-screen, .movie-screen1{
-  min-height: 100dvh;
+  height: 100vh;
   width: 100vw;
   padding-top: 0;
   position: absolute;
@@ -931,10 +935,6 @@ button{
   display: flex;
   justify-content: center;
   font-size: 14px;
-}
-
-#content .btn-down{
-  display: block;
 }
 
 }

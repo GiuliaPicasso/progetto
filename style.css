@@ -915,7 +915,7 @@ button{
   position: relative;
   height: 100vh;
   width: 100%;
-  margin-bottom: 20px;
+  margin:0;
   align-items: baseline;
 }
 
@@ -924,7 +924,6 @@ button{
   width: 100vw;
   padding-top: 0;
   position: absolute;
-  bottom: 0;
 }
 
 .row-screen{

@@ -704,7 +704,7 @@ h3 {
 #content{
   padding: 60px 20px 0px 20px;
   position: relative;
-  height: 100dvh;
+  height: 100vh;
   width: auto;
 }
 
@@ -835,8 +835,8 @@ h3 {
 }
 
 #btn-back-to-top {
-bottom: 10px;
-right: 20px;
+  bottom: 10px;
+  right: 20px;
 }
 
 #folklore{

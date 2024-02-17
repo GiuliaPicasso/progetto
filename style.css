@@ -13,6 +13,7 @@ html, *{
   color: white;
   scroll-behavior:smooth;
   overflow: hidden;
+  cursor: url('images/favicon.svg'), auto;
 }
 
 body {
@@ -276,7 +277,7 @@ button:hover{
   z-index: 100;
   position: absolute;
   bottom: 0;
-  padding: 10px 0 10px 40px;
+  padding: 10px 0 20px 40px;
   display: flex;
   justify-content: flex-start;
 
@@ -292,7 +293,7 @@ h1{
 
 h2 {
   padding: 10px 0px 0px 0px;
-  border-top: 1px solid #FFFFFF30;
+
 }
 
 .index{
@@ -888,6 +889,7 @@ h3 {
 
 h2{
   font-size: 15px;
+  border-bottom: 1px solid #FFFFFF30;
 }
 
 h5{

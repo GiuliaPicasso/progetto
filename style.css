@@ -100,6 +100,11 @@ button:hover{
   padding-left: 0px;
   padding-top: 10px;
   display: flex;
+  width: 100vw;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
 }
 
 #content .btn-down{
@@ -140,7 +145,7 @@ button:hover{
 #nav {
   display: flex;
   justify-content: flex-end;
-  font-size: 60px;
+  font-size: 70px;
 
 }
 
@@ -149,7 +154,7 @@ button:hover{
   writing-mode: vertical-rl;
   height: 100vh;
   flex-direction: column;
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .col-3 {
@@ -158,11 +163,11 @@ button:hover{
   width: auto;
   height: 100vh;
   text-align: inherit;
-  padding: 20px 20px 0 20px;
+  padding: 5px 0px 0 0px;
   color: black;
   cursor: pointer;
   animation-direction: alternate;
-  font-weight: 500;
+  font-weight: 400;
   font-family: 'IBM Plex Mono', monospace;
 
 }
@@ -528,10 +533,11 @@ hr{
   z-index: 0;
   position: relative;
   display: flex;
-  padding: 60px 20px 100px 40px;
+  padding: 60px 40px 100px 40px;
   flex-direction: row;
   height: 100vh;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #folklore {
@@ -684,9 +690,11 @@ h3 {
 }
 
 #content{
-  padding: 60px 20px 0px 20px;
+  padding: 60px 20px 20px 20px;
   position: relative;
   height: 100vh;
+  justify-content: space-between;
+
 }
 
 #footer{
@@ -785,7 +793,7 @@ h3 {
 }
 
 .col-2{
-  width: auto;
+  width: 40%;
 }
 
 /*---------------TIMELINE--------------*/
@@ -798,7 +806,8 @@ h3 {
 /*---------------K, Y, S SECTIONS--------------*/
 
 #front{
-  padding: 60px 20px 100px 20px;
+  padding: 60px 20px 20px 20px;
+  justify-content: space-between;
 }
 
 #front .explanation{

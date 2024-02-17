@@ -612,7 +612,8 @@ h3 {
 }
 
 .t{
-  background-color: #000000;
+  background-color: #101415;
+  border-top: 1px solid white;
 }
 
 .info {
@@ -880,16 +881,20 @@ button{
 
 
 #movie-screen{
+  display: flex;
   position: relative;
   height: 100vh;
   width: 100%;
   bottom: 0;
   margin-top: 20px;
+  align-items: baseline;
 }
 
 .movie-screen{
   width: 100vw;
   padding-top: 0;
+  position: absolute;
+    bottom: 0;
 }
 
 .row-screen{

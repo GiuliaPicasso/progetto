@@ -154,7 +154,7 @@ button:hover{
   animation-direction: alternate;
   font-weight: 300;
   font-family: 'IBM Plex Mono', monospace;
-  filter: grayscale();
+
 }
 
 .col-3:hover, .col-3-stretch:hover, .col-3 a:hover, .col-3-stretch a:hover{
@@ -295,8 +295,8 @@ h2 {
 }
 
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   border-radius: 50%;
   display: inline-block;
   margin-right: 5px;
@@ -604,6 +604,10 @@ h3 {
 
 .s{
   background-color: #FA9542;
+}
+
+.t{
+  background-color: #000000;
 }
 
 .info {

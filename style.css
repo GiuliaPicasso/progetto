@@ -92,9 +92,10 @@ button:hover{
 
 .btn-down{
   font-weight: 200;
-  font-size: 20px;
   position: relative;
   padding-left: 0px;
+  padding-top: 10px;
+  display: flex;
 }
 
 #content .btn-down{
@@ -706,7 +707,6 @@ h3 {
   font-weight: 400;
   height: 100vh;
   align-items: baseline;
-  align-content: flex-end;
 }
 
 .nav {
@@ -716,7 +716,7 @@ h3 {
   flex-direction: column-reverse;
   flex-wrap: nowrap;
   writing-mode: horizontal-tb;
-  position: sticky;
+  position: absolute;
   bottom: 0;
 }
 
@@ -841,12 +841,12 @@ h5{
 }
 
 .big-description{
-  font-size: 18px;
+  font-size: 1em;
   width: 100%;
 }
 
 .specs{
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .description{
@@ -866,7 +866,7 @@ h5{
 }
 
 .period{
-
+  font-size: 20px;
   margin-left: 20px;
 }
 
@@ -875,13 +875,9 @@ button{
 }
 
 .screen{
-  width: 120px;
+  width: 40%;
 }
-.movie{
-  height: 60vh;
-  overflow-y: scroll;
-  overflow:
-}
+
 
 #movie-screen{
   position: relative;
@@ -889,7 +885,6 @@ button{
   width: 100%;
   bottom: 0;
   margin-top: 20px;
-  border-top: 1px solid white;
 }
 
 .movie-screen{

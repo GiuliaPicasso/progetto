@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" style="font-size: 97.2%;">
+    <title>BROGETTO</title>
+    <link rel="icon" type="image/favicon" href="images/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+  </head>
+
+<body>
+
+
+  <section id="header">
+      <nav class="header-title">
+          <div>
+              ⇠<a onclick="history.back()">Back</a>
+          </div>
+      </nav>
+  </section>
+
+  <section id="content" style="display: flex; justify-content: flex-start; width: 50vw;">
+    <div>
+      <h1>ŌMAGATOKI</h1>
+    </div>
+    <div class="movie">
+        <h5>Sunset as the hour of meeting evil spirits</h5>
+        <p class="big-description" style="width: 40vw">Ōmagatoki is the twilight hour between when the sun
+          sets and the sky goes dark. The border thins between sekai—the world we live in, belong to, and recognize—and ikai,
+          the “other” world.
+          During ōmagatoki, the evil spirits, yōkai, yūrei, and other dark things cross over into our world. </p>
+          <p class="specs" style="opacity: 60%"> Text from yokai.com/oumagatoki</p>
+        <img class="movie-poster" src="https://data.ukiyo-e.org/ohmi/images/Shotei-C038-Sunset_Glow_at_Tone_River-01-12-04-2006-8054-x2000.jpg">
+        <p class="specs description">Watanabe Shotei, Sunset Glow at Tone River, 1924</p>
+        <p class="legenda"> <img src="images/implicit.svg" alt="">Implicit reference <br> <img src="images/explicit.svg" alt="">Explicit reference </p>
+        <p class="big-description" style="width: 40vw">Ōmagatoki is mostly represented as the twilight hour of the day, corresponding to the beginning of the conflicts.
+          However, it's more common that in anime it's characterized by the arrival of strange creatures.</p>
+  </div>
+  </section>
+
+  <section id="movie-screen">
+        <div class="movie-screen">
+
+          <div class="period">1910-1950</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('kujira.html')">Kujira</button>
+              <h4>1927</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/kujira/kujira1.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('golden.html')">The Golden Flower</button>
+              <h4>1929</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/golden/golden2.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('lump.html')">The Lump</button>
+              <h4>1929</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/lump/lump4.png">
+            </div>
+          </div>
+
+          <div class="period">1950-1980</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('hakujaden.html')">Hakujaden</button>
+              <h4>1958</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/hakuja/hakuja9.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('magic.html')">Magic Boy</button>
+              <h4>1959</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/magic/magic9.png">
+              <img class="screen" src="images/magic/magic8.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('great.html')">Alakazam the Great</button>
+              <h4>1960</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/great/great7.png">
+              <img class="screen" src="images/great/great8.png">
+              <img class="screen" src="images/great/great9.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('orochi.html')">Orochi, the Eight-Headed Dragon</button>
+              <h4>1963</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/orochi/orochi9.png">
+              <img class="screen" src="images/orochi/orochi10.png">
+              <img class="screen" src="images/orochi/orochi11.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('mizu.html')">The Water Seed</button>
+              <h4>1975</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/mizu/mizu15.png">
+              <img class="screen" src="images/mizu/mizu16.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('taro.html')">Taro the Dragon's Son</button>
+              <h4>1979</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/taro/taro18.png">
+              <img class="screen" src="images/taro/taro19.png">
+            </div>
+          </div>
+
+
+          <div class="period">1980-2023</div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('nausicaa.html')">Nausicaä of the Valley of the Wind</button>
+              <h4>1984</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/nausicaa/nausicaa13.png">
+              <img class="screen" src="images/nausicaa/nausicaa14.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('laputa.html')">Castle in the Sky</button>
+              <h4>1986</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/laputa/laputa21.png">
+              <img class="screen" src="images/laputa/laputa22.png">
+              <img class="screen" src="images/laputa/laputa23.png">
+              <img class="screen" src="images/laputa/laputa24.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('totoro.html')">My Neighbor Totoro</button>
+              <h4>1988</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/totoro/totoro28.png">
+              <img class="screen" src="images/totoro/totoro29.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('pompoko.html')">Pompoko</button>
+              <h4>1994</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/pompoko/pompoko11.png">
+              <img class="screen" src="images/pompoko/pompoko12.png">
+              <img class="screen" src="images/pompoko/pompoko13.png">
+              <img class="screen" src="images/pompoko/pompoko14.png">
+              <img class="screen" src="images/pompoko/pompoko15.png">
+              <img class="screen" src="images/pompoko/pompoko16.png">
+              <img class="screen" src="images/pompoko/pompoko17.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('mononoke.html')">Princess Mononoke</button>
+              <h4>1997</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/mononoke/mononoke16.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('spirited.html')">Spirited Away</button>
+              <h4>2001</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/spirited/spirited12.png">
+              <img class="screen" src="images/spirited/spirited13.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('paprika.html')">Paprika</button>
+              <h4>2006</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/paprika/paprika5.png">
+              <img class="screen" src="images/paprika/paprika6.png">
+              <img class="screen" src="images/paprika/paprika7.png">
+              <img class="screen" src="images/paprika/paprika8.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('ponyo.html')">Ponyo</button>
+              <h4>2008</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/ponyo/ponyo23.png">
+              <img class="screen" src="images/ponyo/ponyo24.png">
+              <img class="screen" src="images/ponyo/ponyo25.png">
+            </div>
+          </div>
+
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('wolf.html')">Wolf Children</button>
+              <h4>2012</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/wolf/wolf6.png">
+              <img class="screen" src="images/wolf/wolf7.png">
+              <img class="screen" src="images/wolf/wolf8.png">
+              <img class="screen" src="images/wolf/wolf9.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('kaguya.html')">The Tale of the Princess Kaguya</button>
+              <h4>2013</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/kaguya/kaguya20.png">
+              <img class="screen" src="images/kaguya/kaguya21.png">
+              <img class="screen" src="images/kaguya/kaguya22.png">
+              <img class="screen" src="images/kaguya/kaguya23.png">
+              <img class="screen" src="images/kaguya/kaguya24.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('beast.html')">The Boy and the Beast</button>
+              <h4>2015</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/beast/beast18.png">
+              <img class="screen" src="images/beast/beast19.png">
+              <img class="screen" src="images/beast/beast20.png">
+              <img class="screen" src="images/beast/beast21.png">
+              <img class="screen" src="images/beast/beast22.png">
+              <img class="screen" src="images/beast/beast23.png">
+              <img class="screen" src="images/beast/beast24.png">
+              <img class="screen" src="images/beast/beast25.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('lu.html')">Lu Over the Wall</button>
+              <h4>2017</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/lu/lu8.png">
+              <img class="screen" src="images/lu/lu9.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('suzume.html')">Suzume</button>
+              <h4>2022</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/suzume/suzume31.png">
+              <img class="screen" src="images/suzume/suzume32.png">
+              <img class="screen" src="images/suzume/suzume33.png">
+              <img class="screen" src="images/suzume/suzume34.png">
+              <img class="screen" src="images/suzume/suzume35.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('inu.html')">Inu-Oh</button>
+              <h4>2022</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/inu/inu26.png">
+              <img class="screen" src="images/inu/inu27.png">
+              <img class="screen" src="images/inu/inu28.png">
+              <img class="screen" src="images/inu/inu29.png">
+            </div>
+          </div>
+
+          <div class="row-screen">
+            <div class="folklore-specs">
+              <button type="button" onclick="transitionToPage('heron.html')">The Boy and the Heron</button>
+              <h4>2023</h4>
+            </div>
+
+            <div>
+              <img class="screen" src="images/heron/heron14.png">
+              <img class="screen" src="images/heron/heron15.png">
+              <img class="screen" src="images/heron/heron16.png">
+              <img class="screen" src="images/heron/heron17.png">
+            </div>
+          </div>
+
+
+      </div>
+  </section>
+
+
+  <section id="footer">
+      <div class="footer">
+        <span class="footer-link" href="search.html" target=”_blank onclick="transitionToPage('search.html')">?Index</span>
+      </div>
+  </section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

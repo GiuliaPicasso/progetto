@@ -398,8 +398,8 @@ h5 {
 }
 
 .movie-poster{
-  width: 30%;
-  height: auto;
+  height: 220px;
+  width: auto;
 }
 
 #movie-screen{
@@ -415,7 +415,7 @@ h5 {
   z-index: 200;
   height: 100vh;
   width: 50vw;
-  padding: 40px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
   background-color: inherit;
   overflow-y: scroll;
 }

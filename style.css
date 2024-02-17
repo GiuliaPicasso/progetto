@@ -702,7 +702,7 @@ h3 {
 }
 
 #content{
-  padding: 60px 20px 20px 20px;
+  padding: 60px 20px 0px 20px;
   position: relative;
   height: 100dvh;
 }
@@ -782,6 +782,7 @@ h3 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
+  height: 100dvh;
 
 }
 
@@ -856,21 +857,11 @@ right: 20px;
 
 /*---------------GOD/MOVIE SECTION--------------*/
 
-h1{
-
-}
 
 h2{
   font-size: 15px;
 }
 
-h4{
-
-}
-
-h5{
-
-}
 
 .big-description{
   font-size: 1em;
@@ -922,6 +913,7 @@ button{
   width: 100%;
   margin-top: 20px;
   align-items: baseline;
+  height: 100dvh;
 }
 
 .movie-screen, .movie-screen1{

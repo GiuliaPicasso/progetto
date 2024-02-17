@@ -702,6 +702,7 @@ h3 {
 
 .header-title{
   font-size: 14px;
+  padding-top: 5px;
 }
 
 #content{
@@ -717,7 +718,7 @@ h3 {
 }
 
 .title{
-  font-size: 60px;
+  font-size: 50px;
   line-height: 0.8em;
 }
 

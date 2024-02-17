@@ -156,7 +156,6 @@ button:hover{
   writing-mode: vertical-rl;
   height: 100vh;
   flex-direction: column;
-  font-weight: 500;
 }
 
 .col-3 {
@@ -208,7 +207,6 @@ button:hover{
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
-  font-weight: 400;
 }
 
 
@@ -224,6 +222,7 @@ button:hover{
 
 .col-3-stretch a {
    text-decoration: none;
+   font-weight: 400;
 }
 
 /*---------------header--------------*/
@@ -788,6 +787,7 @@ h3 {
 /*---------------SEARCH--------------*/
 #nav-stretch{
   height: auto;
+  font-weight: 400;
 }
 
 #nav-stretch .nav{
@@ -800,7 +800,7 @@ h3 {
   flex-direction: row-reverse;
   justify-content: flex-start;
   height: 100dvh;
-
+  font-weight: 400;
 }
 
 .index{

@@ -704,7 +704,7 @@ h3 {
 #content{
   padding: 60px 20px 0px 20px;
   position: relative;
-  height: 90dvh;
+  height: 100dvh;
 }
 
 #footer{
@@ -790,7 +790,7 @@ h3 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  height: 90vh;
+
   overflow-y: scroll;
   z-index: 200;
   font-size: 22px;
@@ -799,7 +799,7 @@ h3 {
 
 .col-3-stretch{
   padding: 20px 5px 20px 5px;
-  height: 100vh;
+  height: 100dvh;
   width: 10vw;
 }
 

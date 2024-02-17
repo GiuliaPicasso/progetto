@@ -705,6 +705,7 @@ h3 {
   padding: 60px 20px 0px 20px;
   position: relative;
   height: 100dvh;
+  width: auto;
 }
 
 #footer{
@@ -790,7 +791,6 @@ h3 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-
   overflow-y: scroll;
   z-index: 200;
   font-size: 22px;
@@ -798,9 +798,9 @@ h3 {
 }
 
 .col-3-stretch{
-  padding: 20px 5px 20px 5px;
+  padding: 20px 0px 20px 5px;
   height: 100dvh;
-  width: 10vw;
+  width: auto;
 }
 
 .col-2{
@@ -909,11 +909,10 @@ button{
 #movie-screen, #movie-screen1{
   display: flex;
   position: relative;
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
   margin-top: 20px;
   align-items: baseline;
-  height: 100dvh;
 }
 
 .movie-screen, .movie-screen1{

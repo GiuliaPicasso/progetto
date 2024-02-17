@@ -704,7 +704,7 @@ h3 {
 #content{
   padding: 60px 20px 0px 20px;
   position: relative;
-  height: 100dvh;
+  height: 90dvh;
 }
 
 #footer{
@@ -804,7 +804,7 @@ h3 {
 }
 
 .col-2{
-  width: 40%;
+  width: auto;
 }
 
 /*---------------TIMELINE--------------*/
@@ -818,7 +818,7 @@ h3 {
 
 #front{
   padding: 60px 20px 20px 20px;
-    min-height: 100vh;
+  min-height: 90vh;
 }
 
 #front .explanation{

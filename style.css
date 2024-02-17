@@ -146,7 +146,7 @@ button:hover{
 #nav {
   display: flex;
   justify-content: flex-end;
-  font-size: 70px;
+  font-size: 30px;
 
 }
 
@@ -197,7 +197,9 @@ button:hover{
   transform: translate(-80px, -0px);
 }
 
-
+.title{
+  font-size: 80px;
+}
 
 /*---------------navbar-stretch--------------*/
 
@@ -205,6 +207,7 @@ button:hover{
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
+  font-weight: 400;
 }
 
 
@@ -213,7 +216,7 @@ button:hover{
   display: inline-block;
   width: auto;
   text-align: inherit;
-  padding: 40px 10px 0 10px;
+  padding: 5px 0px 0 0px;
   color: black;
   cursor: pointer;
 }
@@ -706,6 +709,7 @@ h3 {
   position: relative;
   height: 100vh;
   width: auto;
+  justify-content: space-around;
 }
 
 #content .btn-down{
@@ -732,7 +736,7 @@ h3 {
 
 #nav {
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   height: 100dvh;
   align-items: baseline;
 }
@@ -921,7 +925,6 @@ button{
   width: 100%;
   margin:0;
   align-items: baseline;
-  padding-bottom: 20px;
 }
 
 .movie-screen, .movie-screen1{

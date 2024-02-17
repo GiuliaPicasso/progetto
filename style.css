@@ -705,7 +705,6 @@ h3 {
 
 .header-title{
   font-size: 14px;
-  padding-top: 5px;
 }
 
 #content{
@@ -841,7 +840,6 @@ h3 {
   width: 100%;
   display: flex;
   align-content: space-between;
-  justify-content: center;
 }
 
 #front .explanation{

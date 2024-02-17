@@ -77,7 +77,11 @@ button:hover{
   border: 1.5px solid white;
   color: #101415;
   background-color: white;
+}
 
+.home{
+  border: 1.5px dashed white;
+  margin: 0;
 }
 
 #btn-back-to-top {
@@ -238,7 +242,7 @@ button:hover{
   z-index: 0;
   position: absolute;
   display: flex;
-  padding: 60px 20px 0px 40px;
+  padding: 80px 20px 0px 40px;
   flex-direction: column;
 }
 
@@ -687,8 +691,8 @@ h3 {
 #footer{
   top:0;
   right: 0;
-  width: 20%;
-  height: 10%;
+  width: 30%;
+  height: 7%;
   z-index: 400;
   display: flex;
   padding: 0;
@@ -807,6 +811,10 @@ bottom: 10px;
 right: 20px;
 }
 
+#folklore{
+  height: 100vh;
+}
+
 .tabella{
   font-size: 15px;
   padding-bottom: 20px;
@@ -884,21 +892,20 @@ button{
 }
 
 
-#movie-screen{
+#movie-screen, #movie-screen1{
   display: flex;
   position: relative;
   height: 100vh;
   width: 100%;
-  bottom: 0;
   margin-top: 20px;
   align-items: baseline;
 }
 
-.movie-screen{
+.movie-screen, .movie-screen1{
   width: 100vw;
   padding-top: 0;
   position: absolute;
-    bottom: 0;
+  bottom: 0;
 }
 
 .row-screen{

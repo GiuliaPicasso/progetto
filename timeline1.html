@@ -18,6 +18,10 @@
 
 <body>
 
+  <div class="top">
+      <span id="btn-back-to-top"><button type="button">BACK TO TOP</button></span>
+  </div>
+
   <section id="header">
       <nav class="header-title">
           <div>
@@ -30,9 +34,13 @@
     <div>
       <h1>TIMELINE</h1>
     </div>
-    <div class="explanation" style="width: 40vw">
+    <div class="explanation">
       <p>Time has shaped anime, altering its storytelling aesthetic and purpose: educating a younger audience, delivering practical morals, or even driving social change.
       <i>Scroll down and discover how 33 anime adapted to changing times, from 1917 to 2023. Explore any movie by clicking on the corresponding title.</i></p>
+    </div>
+
+    <div class="btn-down">
+      <a href="#movie-screen1"><button type="button"><b>EXPLORE THE FOLKLORE REFERENCES</b></button></a>
     </div>
   </div>
 
@@ -464,12 +472,11 @@
           </div>
       </div>
 
-      <section id="footer">
+      <div id="footer">
           <div class="footer">
-            <span class="footer-link" href="search.html" target=”_blank onclick="transitionToPage('search.html')">?Index</span>
+            <span class="footer-link" href="search.html" onclick="transitionToPage('search.html')"><button type="button" class="home">Index</button></span>
           </div>
-      </section>
-
+      </div>
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

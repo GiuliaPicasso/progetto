@@ -809,9 +809,9 @@ h3 {
   flex-direction: column;
   overflow-y: scroll;
   z-index: 200;
-  font-size: 22px;
-  padding-bottom: 40px;
-  height: 100vh;
+  font-size: 20px;
+  height: 100dvh;
+  width: 100%;
 }
 
 .col-3-stretch{
@@ -855,7 +855,13 @@ h3 {
 }
 
 #folklore{
-  height: 100vh;
+  height: 100dvh;
+  width: 100%;
+}
+
+.chart{
+  height: 100dvh;
+  width: 100%;
 }
 
 .tabella{

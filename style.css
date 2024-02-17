@@ -578,7 +578,7 @@ h3 {
 .td{
   width: 100vw;
   border-top: 1px solid #101415;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 10px 10px;
 }
 
 .td p, .tr a{
@@ -877,6 +877,10 @@ button{
 
 .screen{
   width: 40%;
+}
+
+.d{
+  display: none;
 }
 
 

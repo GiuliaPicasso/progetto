@@ -920,9 +920,9 @@ button{
 }
 
 .movie-screen, .movie-screen1{
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
-  padding-top: 0;
+  padding-bottom: 20px;
   position: absolute;
 }
 

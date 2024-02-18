@@ -275,10 +275,8 @@ button:hover{
   width: 40vw;
 }
 
-.w{
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: red;
+.title{
+    line-height: 0.8em;
 }
 
 /*---------------footer--------------*/
@@ -804,7 +802,6 @@ h3 {
 
 .title{
   font-size: 55px;
-  line-height: 0.8em;
 }
 
 #footer{

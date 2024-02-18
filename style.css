@@ -77,7 +77,7 @@ button{
 }
 
 button:hover{
-  border: 1.5px solid #101415;
+  border-color: #FCFAF2;
   color: #101415;
   background-color: #FCFAF2;
   cursor: url('images/arrow.svg'), auto;
@@ -783,7 +783,9 @@ h3 {
 }
 
 #content .btn-down{
-  display: block;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column
 }
 
 #content h1{

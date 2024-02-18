@@ -752,6 +752,21 @@ h3 {
 
 /*---------------index--------------*/
 
+#menu{
+  position: sticky;
+  bottom: 0;
+}
+
+.menu{
+  position: absolute;
+  bottom: 0;
+  height: 7dvh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
 #header{
   padding: 10px 0px 0px 20px;
 }
@@ -781,6 +796,10 @@ h3 {
 
 #content button{
   font-size: 20px;
+}
+
+.explanation{
+  border-bottom: 1px solid #FCFAF2;
 }
 
 .title{

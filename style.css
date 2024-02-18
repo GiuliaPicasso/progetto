@@ -43,7 +43,7 @@ ul{
 }
 
 b{
-  font-weight: 600;
+  font-weight: 500;
   font-family: inherit;
   color: inherit;
 }
@@ -69,7 +69,7 @@ button{
   cursor: pointer;
   display: inline-block;
   z-index: 10;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #FCFAF2;
   transition: 0.1s;
@@ -498,6 +498,18 @@ h5 {
   margin-right: 10px;
 }
 
+.movie1 button{
+  background-color: #FCFAF2;
+  color: #101415;
+  border-color: #101415;
+}
+
+.movie1 button:hover{
+  background-color: #101415;
+  color: #FCFAF2;
+  border-color: #101415
+}
+
 
 .folklore-specs1 img{
   padding-right: 10px;
@@ -832,7 +844,7 @@ h3 {
 }
 
 .explanation{
-  font-size: 20px;
+  font-size: 26px;
   width: 100%;
 }
 
@@ -958,7 +970,7 @@ h5{
 }
 
 .specs{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .description{
@@ -982,7 +994,7 @@ h5{
 }
 
 button{
-  font-size: 14px;
+  font-size: 15px;
 }
 
 
@@ -1015,7 +1027,7 @@ button{
 .movie-screen button, .movie-screen1 button{
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 15px;
 
 }
 

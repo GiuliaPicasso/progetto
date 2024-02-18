@@ -197,6 +197,7 @@ button:hover{
 
 #transition:hover #record{
   transform: translate(-80px, -0px);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .title{
@@ -863,7 +864,7 @@ h3 {
 #nav-stretch .nav{
   top:0;
   width: auto;
-  font-size: 20px;
+  font-size: 22px;
   writing-mode: vertical-lr;
   z-index: 0;
   display: flex;

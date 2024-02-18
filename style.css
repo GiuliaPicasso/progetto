@@ -978,10 +978,12 @@ h5{
 }
 
 .movie-poster{
-
+  height: 20vw;
+  width: auto;
 }
 
 .legenda{
+  display: none;
   font-size: 13px;
 }
 

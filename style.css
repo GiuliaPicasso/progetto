@@ -791,7 +791,7 @@ h3 {
   top:0;
   right: 0;
   width: 30%;
-  height: 7%;
+  height: 10%;
   z-index: 400;
   display: flex;
   padding: 0;
@@ -799,7 +799,7 @@ h3 {
 
 .footer{
   position: absolute;
-  top:15px;
+  top:10px;
   right:20px;
   font-size: 14px;
 }
@@ -994,7 +994,7 @@ h5{
 }
 
 button{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 

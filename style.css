@@ -847,6 +847,7 @@ h3 {
 .explanation{
   font-size: 22px;
   width: 100%;
+  font-weight: 300;
 }
 
 /*---------------SEARCH--------------*/

@@ -255,7 +255,7 @@ button:hover{
   z-index: 0;
   position: absolute;
   display: flex;
-  padding: 80px 20px 0px 40px;
+  padding: 60px 20px 0px 40px;
   flex-direction: column;
 }
 
@@ -768,6 +768,7 @@ h3 {
   font-size: 14px;
 }
 
+
 #content{
   padding: 60px 20px 0px 20px;
   position: relative;
@@ -982,10 +983,10 @@ h5{
 .movie-poster{
   height: 20vw;
   width: auto;
+  display: none;
 }
 
 .legenda{
-  display: none;
   font-size: 13px;
 }
 
@@ -997,11 +998,13 @@ h5{
   font-size: 30px;
 }
 
+.screen{
+  width: 45%;
+}
+
 button{
   font-size: 14px;
 }
-
-
 
 .d{
   display: none;
@@ -1032,12 +1035,14 @@ button{
   display: flex;
   justify-content: center;
   font-size: 15px;
-
 }
 
 .movie1{
   padding-top: 10px;
 }
 
+.movie1 img{
+  width: 92%;
+}
 
 }

@@ -505,23 +505,10 @@ h5 {
   margin-right: 10px;
 }
 
-.movie1 button{
-  background-color: #FCFAF2;
-  color: #101415;
-  border-color: #101415;
-}
-
-.movie1 button:hover{
-  background-color: #101415;
-  color: #FCFAF2;
-  border-color: #101415
-}
-
 
 .folklore-specs1 img{
   padding-right: 10px;
 }
-
 
 
 /*---------------movie--------------*/
@@ -790,6 +777,10 @@ h3 {
 
 #content h1{
   width: auto;
+}
+
+#content button{
+  font-size: 20px;
 }
 
 .title{

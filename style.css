@@ -748,7 +748,6 @@ h3 {
 
   html {
     height: -webkit-fill-available;
-    font-weight: 300;
   }
 
 /*---------------scrollbar--------------*/
@@ -847,7 +846,6 @@ h3 {
 .explanation{
   font-size: 22px;
   width: 100%;
-  font-weight: 300;
 }
 
 /*---------------SEARCH--------------*/

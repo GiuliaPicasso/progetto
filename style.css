@@ -404,7 +404,7 @@ h4{
   padding-right: 5px;
   font-weight: 500;
   margin: 0;
-  font-size: 30px;
+
 }
 
 h5 {
@@ -519,7 +519,7 @@ h5 {
   justify-content: flex-start;
   flex-wrap: wrap;
   flex-direction: column;
-  padding: 5px 0px 0px 0px;
+  padding: 20px 0px 0px 20px;
   border-top: 0.5px solid white;
   align-items: flex-start;
 }
@@ -622,6 +622,14 @@ h3 {
 }
 
 /*---------------kami1--------------*/
+
+.tr1 {
+  margin: 0px;
+  width: auto;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 .td1{
   width: 50vw;
@@ -747,6 +755,7 @@ h3 {
 #content .btn-down{
   display: block;
 }
+
 
 .title{
   font-size: 60px;
@@ -901,7 +910,11 @@ h3 {
   padding-bottom: 20px;
 }
 
-.tr p{
+.td1{
+  width: 100vw;
+}
+
+.tr p, .tr1 p{
   font-size: 28px;
   font-weight: 500;
 }
@@ -951,8 +964,8 @@ h5{
 }
 
 .period{
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 25px;
+  padding-left: 0px;
 }
 
 button{

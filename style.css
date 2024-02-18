@@ -799,7 +799,7 @@ h3 {
 
 .footer{
   position: absolute;
-  top:10px;
+  top:0px;
   right:20px;
   font-size: 14px;
 }

@@ -77,7 +77,7 @@ button{
 }
 
 button:hover{
-  border-color: #FCFAF2;
+  border-color: #101415;
   color: #101415;
   background-color: #FCFAF2;
   cursor: url('images/arrow.svg'), auto;

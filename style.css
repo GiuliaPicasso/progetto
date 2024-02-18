@@ -63,13 +63,13 @@ button{
   -webkit-appearance: none !important;
   border: 1.5px solid #FCFAF2;
   padding: 5px 15px 5px 15px;
-  margin: 5px;
+  margin: 0px;
   background-color: #101415;
   border-radius: 50px;
   cursor: pointer;
   display: inline-block;
   z-index: 10;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   color: #FCFAF2;
   transition: 0.1s;
@@ -405,7 +405,7 @@ iframe{
 
 
 h4{
-  padding-right: 5px;
+  padding-right: 10px;
   font-weight: 500;
   margin: 0;
 
@@ -479,6 +479,7 @@ h5 {
   justify-content: flex-start;
   cursor: default;
   color: #101415;
+  border-bottom: 1px dotted #10141550;
 }
 
 .op{
@@ -881,6 +882,7 @@ h3 {
 .folklore-specs1{
   flex-direction: column;
   display: flex;
+  width: 100vw;
 }
 
 /*---------------K, Y, S SECTIONS--------------*/
@@ -1010,12 +1012,16 @@ button{
   padding-left: 20px;
 }
 
-.movie-screen button{
+.movie-screen button, .movie-screen1 button{
   display: flex;
   justify-content: center;
-  font-size: 14px;
+  font-size: 18px;
+
 }
 
+.movie1{
+  padding-top: 10px;
+}
 
 
 }

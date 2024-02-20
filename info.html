@@ -23,7 +23,7 @@
   <section id="header">
       <nav class="header-title">
           <div>
-              <span onclick="history.back()"><img src="images/back1.png" width="15%"></span>
+              <a href="#" onclick="history.back();return false;"><img src="images/back1.png" width="15%"></a>
           </div>
       </nav>
   </section>
@@ -75,6 +75,11 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
  AOS.init();
+</script>
+<script>
+function goBack() {
+    window.history.back()
+}
 </script>
 <script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>

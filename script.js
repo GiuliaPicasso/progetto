@@ -1,3 +1,5 @@
+//Elementi che appaiono con hoveer
+
 const items = document.querySelectorAll('.col-3, .index-kami, .index-yokai, .index-shizenrei')
 
 items.forEach((el) => {
@@ -17,6 +19,8 @@ items.forEach((el) => {
 })
 
 
+//Caricare pagina con opacità
+
 window.transitionToPage = function(href) {
     document.querySelector('body').style.opacity = 0
     setTimeout(function() {
@@ -30,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 })
 
 
+//Aprire una pagina da sinistra
 
 function openNav(navId) {
     document.getElementById(navId).style.width = "100%";
@@ -40,6 +45,11 @@ function closeNav(navId) {
 }
 
 
+//Tornare alla pagina indietro
+
+function goBack() {
+    window.history.back()
+}
 
 
 

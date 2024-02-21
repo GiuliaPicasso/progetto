@@ -21,6 +21,7 @@ items.forEach((el) => {
 
 //Caricare pagina con opacità
 
+/*
 window.transitionToPage = function(href) {
     document.querySelector('body').style.opacity = 0
     setTimeout(function() {
@@ -32,7 +33,7 @@ window.transitionToPage = function(href) {
 document.addEventListener('DOMContentLoaded', function(event) {
     document.querySelector('body').style.opacity = 1
 })
-
+*/
 
 //Aprire una pagina da sinistra
 

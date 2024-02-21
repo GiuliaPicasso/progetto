@@ -1,4 +1,6 @@
-
+function back(){
+  window.location.href=document.referrer
+}
 
 
 //Elementi che appaiono con hoveer
@@ -23,7 +25,6 @@ items.forEach((el) => {
 
 
 //Caricare pagina con opacità
-
 
 window.transitionToPage = function(href) {
     document.querySelector('body').style.opacity = 0

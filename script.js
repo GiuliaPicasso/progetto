@@ -1,3 +1,6 @@
+location.reload()
+
+
 //Elementi che appaiono con hoveer
 
 const items = document.querySelectorAll('.col-3, .index-kami, .index-yokai, .index-shizenrei')

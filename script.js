@@ -1,4 +1,4 @@
-location.reload()
+
 
 
 //Elementi che appaiono con hoveer

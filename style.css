@@ -26,7 +26,7 @@ body {
 a, span {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   text-decoration: none;
   color: inherit;
 }
@@ -34,7 +34,7 @@ a, span {
 a:hover, span:hover {
   text-decoration: underline;
   color: inherit;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
 }
 
 ul{
@@ -67,7 +67,7 @@ button{
   margin: 0px;
   background-color: #101415;
   border-radius: 50px;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   display: inline-block;
   z-index: 10;
   font-size: 16px;
@@ -80,7 +80,7 @@ button:hover{
   border: 1.5px solid #101415;
   color: #101415;
   background-color: #FCFAF2;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
 }
 
 .home{
@@ -94,7 +94,7 @@ button:hover{
   right: 40px;
   display: none;
   z-index: 500;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   font-weight: 500;
   }
 
@@ -125,13 +125,11 @@ button:hover{
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  cursor: url('images/arrow.svg'), auto;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
-  cursor: url('images/arrow.svg'), auto;
   opacity: 0;
 }
 
@@ -140,7 +138,6 @@ button:hover{
   background-color: #FCFAF2;
   background-position: center;
   display: block;
-  cursor: url('images/arrow.svg'), auto;
 }
 
 
@@ -168,7 +165,7 @@ button:hover{
   text-align: inherit;
   padding: 5px 0px 0 0px;
   color: black;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   animation-direction: alternate;
   font-weight: 400;
   font-family: 'IBM Plex Mono', monospace;
@@ -221,7 +218,7 @@ button:hover{
   text-align: inherit;
   padding: 5px 0px 0 0px;
   color: black;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
 }
@@ -245,7 +242,7 @@ button:hover{
 }
 
 .header-title{
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   position: relative;
 }
 
@@ -312,8 +309,8 @@ h2 {
 }
 
 .index a{
-    cursor: url('images/arrow.svg'), auto;
-    font-weight: 400;
+  cursor: pointer;
+  font-weight: 400;
 }
 
 .col-2{
@@ -521,6 +518,7 @@ h5 {
   height: auto;
   padding-left: 5px;
   padding-top: 5px;
+  cursor: pointer;
 }
 
 .row-screen{
@@ -620,11 +618,11 @@ h3 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 50px;
   font-weight: 400;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
 }
 
 .td:hover, .tr a:hover{
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   text-decoration: none;
   transform: translateY(-10px);
   transition: 0.3s ease-out;
@@ -653,11 +651,11 @@ h3 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 30px;
   font-weight: 500;
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
 }
 
 .td1:hover, .tr1 a:hover{
-  cursor: url('images/arrow.svg'), auto;
+  cursor: pointer;
   text-decoration: none;
   background-color: #FCFAF2;
 }

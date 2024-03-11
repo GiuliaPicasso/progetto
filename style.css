@@ -63,7 +63,6 @@ p{
   line-height: 1.2em;
 }
 
-
 button{
   -webkit-appearance: none !important;
   border: 1.5px solid #FCFAF2;
@@ -245,13 +244,25 @@ button:hover{
   justify-content: flex-start;
 }
 
-.header-title{
+#header img{
   cursor: pointer;
+  width: 5%;
+  opacity: 0.6;
+  transition: 0.1s ease-out;
+}
+
+#header img:hover{
+  opacity: 1;
+}
+
+
+.header-title{
   position: relative;
 }
 
 #header a{
   padding-right: 20px;
+  cursor: pointer;
 }
 
 
@@ -292,6 +303,7 @@ button:hover{
 
 }
 
+
 /*---------------index--------------*/
 
 h1{
@@ -320,9 +332,10 @@ h2 {
 .col-2{
   vertical-align: top;
   display: inline-block;
-  width: 16vw;
+  width: 22vw;
   text-align: inherit;
   padding: 0 10px 0 0;
+  line-height: 2em;
 }
 
 .dot {
@@ -523,6 +536,11 @@ h5 {
   padding-left: 5px;
   padding-top: 5px;
   cursor: pointer;
+
+}
+
+.screen:hover{
+
 }
 
 
@@ -776,6 +794,12 @@ h3 {
   font-size: 14px;
 }
 
+#header img{
+  width: 8%;
+  margin-right: 28%;
+  opacity: 1;
+}
+
 
 #content{
   padding: 60px 20px 0px 20px;
@@ -819,11 +843,11 @@ h3 {
 
 .footer{
   position: absolute;
+  display: flex;
   top:10px;
   right:20px;
   font-size: 14px;
 }
-
 
 #nav {
   display: flex;

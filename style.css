@@ -150,7 +150,6 @@ button:hover{
   display: flex;
   justify-content: flex-end;
   font-size: 30px;
-
 }
 
 .nav {
@@ -174,17 +173,26 @@ button:hover{
   font-family: 'IBM Plex Mono', monospace;
 }
 
-.block-text{
-  width: 20vw;
-  padding-right: 20px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  opacity: 0;
+
+/* Tooltip text */
+#transition .tooltiptext {
+  visibility: hidden;
+  width: 30%;
+  color: #fff;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  writing-mode: horizontal-tb;
+  vertical-align: middle;
+  top: 35vh;
+  right: 15vw;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
 }
 
-.col-3:hover .block-text{
-  opacity: 0;
+/* Show the tooltip text when you mouse over the tooltip container */
+#transition:hover .tooltiptext {
+  visibility: visible;
 }
 
 
@@ -194,24 +202,6 @@ button:hover{
  filter: none;
 }
 
-#record{
-  position: absolute;
-  width: 150px;
-  bottom: 0;
-  z-index: 1;
-  transition: 0.1s ease-out;
-  display: none;
-}
-
-#sleeve{
-  position: relative;
-  z-index: 10;
-}
-
-#transition:hover #record{
-  transform: translate(-80px, -0px);
-  font-family: 'IBM Plex Mono', monospace;
-}
 
 .title{
   font-size: 100px;
@@ -902,6 +892,10 @@ h3 {
 .explanation{
   font-size: 22px;
   width: 100%;
+}
+
+#transition:hover .tooltiptext {
+  visibility: hidden;
 }
 
 /*---------------SEARCH--------------*/

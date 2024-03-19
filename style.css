@@ -178,7 +178,6 @@ button:hover{
 #transition .tooltiptext {
   visibility: hidden;
   width: 30%;
-  color: #fff;
   text-align: left;
   position: absolute;
   z-index: 1;

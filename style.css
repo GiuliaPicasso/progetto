@@ -312,6 +312,7 @@ h1{
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   overflow: hidden;
+  font-size: 30px;
 }
 
 h2 {
